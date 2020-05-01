@@ -1,0 +1,20 @@
+{
+  "name": "invisible-technologies",
+  "version": "1.0.0",
+  "description": "Given an array of inputs (location name, postal code), log the current time and weather for those locations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Oghenekaro Uwede",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mocha": "^7.1.2",
+    "request-promise": "^4.2.5",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
